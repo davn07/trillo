@@ -1,15 +1,20 @@
-.container{
-    max-width: 120rem;
-    margin: 8rem auto;
+.container {
+    width: 150rem;  // changed it from 120rem to 170rem
+    margin: 10rem auto;
     background-color: var(--color-grey-light-1);
     box-shadow:var(--shadow-dark);
 
     min-height: 50rem;    /// for testing purposes
 }
 .header{
-    height: 7rem;
+    height: 8rem;  // changed it from 7rem to 10rem
+    font-size: 1.5rem;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .content{
     display: flex;
